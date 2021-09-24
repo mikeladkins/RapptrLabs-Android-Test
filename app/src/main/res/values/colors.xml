@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0E5C89</color>
+    <color name="colorPrimaryDark">#0B496D</color>
+    <color name="colorAccent">#000000</color>
+    <color name="background">#F9F9F9</color>
+    <color name="button_blue">#0E5C89</color>
+    <color name="chat_text">#1B1E1F</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="button_semi_transparent">#CCFFFFFF</color>
+    <color name="login_edit_text_lines">#FF7B7B7E</color>
+</resources>

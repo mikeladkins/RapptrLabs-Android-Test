@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This layout file exists for compatibility with devices running on devices lower than API 21
+     The current min is 19, so we should support those devices with similar functionality-->
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/button_blue"/>
+</shape>

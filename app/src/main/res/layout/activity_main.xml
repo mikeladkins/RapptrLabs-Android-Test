@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gpc_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:drawableLeft="@drawable/ic_chat"
+            android:drawablePadding="16dp"
+            android:paddingStart="22dp"
+            android:textAlignment="viewStart"
+            android:background="@drawable/main_activity_button"
+            android:onClick="onChatClicked"
+            android:text="@string/chat_button"
+            android:textSize="@dimen/button_text_size" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="24dp"
+            android:drawableLeft="@drawable/ic_lock"
+            android:drawablePadding="16dp"
+            android:paddingStart="22dp"
+            android:textAlignment="viewStart"
+            android:background="@drawable/main_activity_button"
+            android:onClick="onLoginClicked"
+            android:text="@string/login_button"
+            android:textSize="@dimen/button_text_size" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:drawableLeft="@drawable/ic_animation"
+            android:drawablePadding="16dp"
+            android:paddingStart="22dp"
+            android:textAlignment="viewStart"
+            android:background="@drawable/main_activity_button"
+            android:onClick="onAnimationClicked"
+            android:text="@string/animation_button"
+            android:textSize="@dimen/button_text_size" />
+
+    </LinearLayout>
+
+</RelativeLayout>
